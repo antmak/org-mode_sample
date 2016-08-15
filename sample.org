@@ -1,10 +1,10 @@
-abc\\
-=abc=\\
-~abc~\\
+abc \\
+=abc= \\
+~abc~ \\
 
-~/.dotfile\\
-~~/.dotfile~\\
-~\~/.dotfile~\\
+~/.dotfile \\
+~~/.dotfile~ \\
+~\~/.dotfile~ \\
 
 ,
 =,=
