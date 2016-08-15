@@ -1,16 +1,52 @@
-abc \\
-=abc= \\
-~abc~ \\
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+abc\\
+=abc= x\\
+~abc~ x\\
 
-~/.dotfile \\
-~~/.dotfile~ \\
-~\~/.dotfile~ \\
+~/.dotfile\\
+\tilde/.dotfile\\
+Text ~~/.dotfile~ text\\
+Text ~kjdh adkjfh ~/.dotfile~ text\\
+Run ~~/.local/bin/run~ text\\
+Text ~vim ~/.local/bin/run~ text\\
+~\~/.dotfile~\\
+~\tilde/.dotfile~\\
+13 \gt 11 \tilde 132\\
+=~/.dotfile=\\
+=\tilde/.dotfile=
+
+   
+
+world\\
+world2 \\
+World
+
+World3
 
 ,
 =,=
 ~,~
 ~\,~
 =\,=
+
+~\comma~\\
+=\comma=\\
+1 \comma 3\\
+~1 , 3~\\
+=1 , 3=\\
+
+kjkjk
 
 .
 =.=
