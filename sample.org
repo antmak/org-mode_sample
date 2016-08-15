@@ -29,7 +29,11 @@ Text ~vim ~/.local/bin/run~ text\\
 =~/.dotfile=\\
 =\tilde/.dotfile=
 
-   
+~SPC m '​~
+
+~​~~
+
+=~=
 
 Test \tilde \comma ~ , test
 
