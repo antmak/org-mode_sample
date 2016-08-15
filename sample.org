@@ -1,3 +1,5 @@
+#+STARTUP: entitiespretty
+#+STARTUP: entitiesplain
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
@@ -18,6 +20,7 @@ abc\\
 \tilde/.dotfile\\
 Text ~~/.dotfile~ text\\
 Text ~kjdh adkjfh ~/.dotfile~ text\\
+Run ~​~/.local/bin/run~ text\\
 Run ~~/.local/bin/run~ text\\
 Text ~vim ~/.local/bin/run~ text\\
 ~\~/.dotfile~\\
@@ -28,6 +31,8 @@ Text ~vim ~/.local/bin/run~ text\\
 
    
 
+Test \tilde \comma ~ , test
+
 world\\
 world2 \\
 World
@@ -36,7 +41,9 @@ World3
 
 ,
 =,=
-~,~
+
+~​,​~
+
 ~\,~
 =\,=
 
